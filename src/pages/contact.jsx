@@ -1,6 +1,7 @@
-import './style.css'
+import './../pages/style.css'
 import sep from './../images/sep.svg'
 import React from 'react'
+import ContactUs from './../utils/form'
 
 export class Contact extends React.Component {
 	render() {
@@ -11,6 +12,7 @@ export class Contact extends React.Component {
 				<div className="sep">
 					<img src={sep} alt="separator" />
 				</div>
+				<ContactUs></ContactUs>
 			</div>
 		)
 	}

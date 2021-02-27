@@ -62,19 +62,19 @@ export class Navbar extends React.Component {
 								</Link>
 								<ul>
 									<li>
-										<Link to="/" className="link">Home</Link>
+										<Link to="/" className="link" onClick={(event) => this.handleClick(event)}>Home</Link>
 									</li>
 									<li>
-										<Link to="/about" className="link">About</Link>
+										<Link to="/about" className="link" onClick={(event) => this.handleClick(event)}>About</Link>
 									</li>
 									<li>
-										<Link to="/skills" className="link">Skills</Link>
+										<Link to="/skills" className="link" onClick={(event) => this.handleClick(event)}>Skills</Link>
 									</li>
 									<li>
-										<Link to="/portfolio" className="link">Portfolio</Link>
+										<Link to="/portfolio" className="link" onClick={(event) => this.handleClick(event)}>Portfolio</Link>
 									</li>
 									<li>
-										<Link to="/contact" className="link">Contact Me</Link>
+										<Link to="/contact" className="link" onClick={(event) => this.handleClick(event)}>Contact Me</Link>
 									</li>
 								</ul>
 							</nav>

@@ -22,8 +22,8 @@ export class Footer extends React.Component {
 	render() {
 		return (
 			<div className="footer-container">
-				<img src={doublearr} alt="" onClick={this.scrollTop} style={{ zIndex: '1' }} />
-				<h3>Back to Top</h3>
+				<img src={doublearr} alt="" onClick={this.scrollTop} style={{ zIndex: '1', padding: '10px' }} />
+				<h3 onClick={this.scrollTop} style={{ zIndex: '1', padding: '10px', cursor: 'pointer' }}>Back to Top</h3>
 				<div className="footer-socials" style={{ zIndex: '1' }}>
 					<a href="https://www.linkedin.com/in/ionutliviucojocaru/">
 						<img src={In} alt="" />
