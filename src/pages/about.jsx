@@ -1,4 +1,5 @@
 import './style.css'
+import sep from './../images/sep.svg'
 import React from 'react'
 export class About extends React.Component {
 	render() {
@@ -11,24 +12,24 @@ export class About extends React.Component {
 					<button className="btn"></button>
 				</div>
 				<div className="sep">
-					<img src="" alt="separator" />
+					<img src={sep} alt="separator" />
 				</div>
-				<div className="col2">
+				<div className="col12">
 					<div className="box">
-						<div className="smallTitle">DESIGN</div>
+						<div className="smallTitle2">DESIGN</div>
 						<h3>I can design the site based on your needs and suggestions. I can also design the site from scratch and consult you during the job.</h3>
 					</div>
 					<div className="box">
-						<div className="smallTitle">DEVELOPMENT</div>
+						<div className="smallTitle2">DEVELOPMENT</div>
 						<h3>I can develop the site based on your needs and suggestions. I can also develop the site from scratch and consult you during the job.</h3>
 					</div>
 					<div className="box">
-						<div className="smallTitle">MAINTENACE</div>
+						<div className="smallTitle2">MAINTENACE</div>
 						<h3>I can maintain the site based on your needs and suggestions.</h3>
 					</div>
-					<div className="sep">
-						<img src="" alt="separator" />
-					</div>
+				</div>
+				<div className="sep">
+					<img src={sep} alt="separator" />
 				</div>
 			</div>
 		)

@@ -22,9 +22,9 @@ export class Footer extends React.Component {
 	render() {
 		return (
 			<div className="footer-container">
-				<img src={doublearr} alt="" onClick={this.scrollTop} />
+				<img src={doublearr} alt="" onClick={this.scrollTop} style={{ zIndex: '1' }} />
 				<h3>Back to Top</h3>
-				<div className="footer-socials">
+				<div className="footer-socials" style={{ zIndex: '1' }}>
 					<a href="https://www.linkedin.com/in/ionutliviucojocaru/">
 						<img src={In} alt="" />
 					</a>
@@ -42,7 +42,7 @@ export class Footer extends React.Component {
 					</a>
 				</div>
 				<h4>@2021 Cojocaru-Ionut Liviu All Rights Reserved.</h4>
-			</div>
+			</div >
 		)
 	}
 }
