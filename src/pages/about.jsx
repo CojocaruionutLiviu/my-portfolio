@@ -1,7 +1,6 @@
 import './style.css'
 import sep from './../images/sep.svg'
 import React from 'react'
-import CVPDFViewer from './../utils/pdfviewer'
 export class About extends React.Component {
 	render() {
 		return (
@@ -32,7 +31,6 @@ export class About extends React.Component {
 				<div className="sep">
 					<img src={sep} alt="separator" />
 				</div>
-				<CVPDFViewer className="btn" value="My Resume" />
 			</div>
 		)
 	}
