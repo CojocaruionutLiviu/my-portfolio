@@ -1,24 +1,41 @@
 import In from './../images/in.svg'
 import git from './../images/git.svg'
 import mail from './../images/mail.svg'
-import './Home.css'
+import myself from './../images/e783x877_1.png'
+import facebook from './../images/facebook.svg';
+import instagram from './../images/instagram.svg';
+import './style.css'
 import React from 'react'
 export class Home extends React.Component {
   render() {
     return (
-      < div id="e1_12" >
-        <div id="e1_13"><span id="e1_14">Hi, I am</span><span id="e1_15">Ionut-Liviu Cojocaru</span><span id="e1_16">Front-end Developer / UI Designer</span>
-          <div id="e1_18"></div>
-          <div id="e1_19"></div>
-          <div id="e1_20"></div>
-          <div id="e1_21"></div>
-          <img id="e1_23" src={mail}></img>
-          <img id="e1_22" src={git}></img>
-          <img src={In} id="e1_24"></img>
-          <div id="e3_2"></div>
-        </div>
-        <div id="e1_31">
-          <div id="e1_32"></div><span id="e1_33">CONTACT ME</span><span id="e1_34">Portfolio</span><span id="e1_35">About me</span><span id="e1_36">Skills</span>
+      < div id="container" >
+        <div id="home">
+          <div className="col1">
+            <span className="smallTitle">Hi, I am</span>
+            <span className="bigTitle">Ionut-Liviu Cojocaru</span>
+            <span className="greyTitle">Front-end Developer / UI Designer</span>
+            <div id="social-links">
+              <a href="mailto:cojocaruionutliviu@gmail.com" target="_blank">
+                <img className="social-btn" src={mail} />
+              </a>
+              <a href="https://www.github.com/CojocaruionutLiviu" target="_blank">
+                <img className="social-btn" src={git} />
+              </a>
+              <a href="https://www.linkedin.com/in/ionutliviucojocaru/" target="_blank">
+                <img className="social-btn" src={In} />
+              </a>
+              <a href="https://www.facebook.com/in/IonutLiviuCojocaru/" target="_blank">
+                <img className="social-btn" src={facebook} />
+              </a>
+              <a href="https://www.instagram.com/call.me.livio" target="_blank">
+                <img className="social-btn" src={instagram} />
+              </a>
+            </div>
+          </div>
+          <div className="col2">
+            <img className="myself" src={myself} />
+          </div>
         </div>
       </div >
     )
