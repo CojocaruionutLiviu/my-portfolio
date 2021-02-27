@@ -7,7 +7,6 @@ export default function ContactUs() {
     function sendEmail(e) {
         e.preventDefault();
 
-
         emailjs.sendForm('service_1roz64t', 'template_1tj75l7', e.target, 'user_zbRNu5XKe8aEuNGDUsNvp')
             .then((result) => {
                 console.log(result.text);

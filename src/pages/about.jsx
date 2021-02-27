@@ -1,6 +1,7 @@
 import './style.css'
 import sep from './../images/sep.svg'
 import React from 'react'
+import { Link } from "react-router-dom";
 export class About extends React.Component {
 	render() {
 		return (
@@ -31,6 +32,9 @@ export class About extends React.Component {
 				<div className="sep">
 					<img src={sep} alt="separator" />
 				</div>
+				{/* <div className='borderBox'>
+					<Link to="/pdfviewer.jsx" className="link">My CV</Link>
+				</div> */}
 			</div>
 		)
 	}
