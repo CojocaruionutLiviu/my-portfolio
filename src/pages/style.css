@@ -132,9 +132,7 @@
         align-items: center;
         padding: 4px;
     }
-    .footer-container img{
-        display: none;
-    }
+
     .footer-container h3{
         display: none;
     }
