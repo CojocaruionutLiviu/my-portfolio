@@ -34,7 +34,7 @@ export class Footer extends React.Component {
 					<a href="mailto:cojocaruionutliviu@gmail.com">
 						<img src={mail} alt="" />
 					</a>
-					<a href="https://www.facebook.com/in/IonutLiviuCojocaru/">
+					<a href="https://www.facebook.com/IonutLiviuCojocaru/">
 						<img src={facebook} alt="" />
 					</a>
 					<a href="https://www.instagram.com/call.me.livio">

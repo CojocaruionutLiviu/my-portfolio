@@ -25,7 +25,7 @@ export class Home extends React.Component {
               <a href="https://www.linkedin.com/in/ionutliviucojocaru/" target="_blank">
                 <img className="social-btn" src={In} />
               </a>
-              <a href="https://www.facebook.com/in/IonutLiviuCojocaru/" target="_blank">
+              <a href="https://www.facebook.com/IonutLiviuCojocaru/" target="_blank">
                 <img className="social-btn" src={facebook} />
               </a>
               <a href="https://www.instagram.com/call.me.livio" target="_blank">
