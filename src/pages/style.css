@@ -133,10 +133,10 @@
         padding: 4px;
     }
     .footer-container img{
-        display: hidden;
+        display: none;
     }
     .footer-container h3{
-        display: hidden;
+        display: none;
     }
     
     .footer-socials img{
