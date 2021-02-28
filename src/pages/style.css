@@ -132,8 +132,11 @@
         align-items: center;
         padding: 4px;
     }
-    .footer-container img:hover{
-        cursor: pointer;
+    .footer-container img{
+        display: hidden;
+    }
+    .footer-container h3{
+        display: hidden;
     }
     
     .footer-socials img{
