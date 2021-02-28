@@ -130,9 +130,11 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        padding: 4px;
+        padding: 42px;
     }
-
+    #arrow{
+        display:none;
+    }
     .footer-container h3{
         display: none;
     }
