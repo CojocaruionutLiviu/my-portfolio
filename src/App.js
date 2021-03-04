@@ -1,11 +1,11 @@
 import './pages/style.css';
-import { Home } from './pages/home';
-import { About } from './pages/about';
-import { Skills } from './pages/skills';
-import { Portfolio } from './pages/portfolio';
-import { Contact } from './pages/contact';
-import { Navbar } from './pages/nav';
-import { Footer } from './pages/footer';
+import { Home } from './pages/home/home';
+import { About } from './pages/about/about';
+import { Skills } from './pages/skills/skills';
+import { Portfolio } from './pages/portfolio/portfolio';
+import { Contact } from './pages/contact/contact';
+import { Navbar } from './pages/nav/nav';
+import { Footer } from './pages/footer/footer';
 
 import {
   BrowserRouter as Router,

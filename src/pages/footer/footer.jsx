@@ -1,10 +1,10 @@
 import './footer.css'
-import In from './../images/in.svg'
-import git from './../images/git.svg'
-import mail from './../images/mail.svg'
-import facebook from './../images/facebook.svg';
-import instagram from './../images/instagram.svg';
-import doublearr from './../images/doublearr.svg';
+import In from './../../images/in.svg'
+import git from './../../images/git.svg'
+import mail from './../../images/mail.svg'
+import facebook from './../../images/facebook.svg';
+import instagramfooter from './../../images/instagramfooter.svg';
+import doublearr from './../../images/doublearr.svg';
 import React from 'react'
 export class Footer extends React.Component {
 	constructor(props) {
@@ -38,7 +38,7 @@ export class Footer extends React.Component {
 						<img src={facebook} alt="" />
 					</a>
 					<a href="https://www.instagram.com/call.me.livio">
-						<img src={instagram} alt="" />
+						<img src={instagramfooter} alt="" />
 					</a>
 				</div>
 				<h4>@2021 Cojocaru-Ionut Liviu All Rights Reserved.</h4>

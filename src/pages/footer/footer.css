@@ -13,7 +13,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
+  height: 15.6vh;
 	}
   .footer-container img:hover{
     cursor: pointer;

@@ -1,5 +1,5 @@
 import './about.css'
-import sep from './../images/sep.svg'
+import sep from './../../images/sep.svg'
 import React from 'react'
 import { Link } from "react-router-dom";
 export class About extends React.Component {

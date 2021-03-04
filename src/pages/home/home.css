@@ -7,17 +7,14 @@
 	#home{
     background-color:#D7D7D7 ;
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
 	}
 	.myself{
-    top: 96px;
-    position: relative;
-    width:600px;
-    height: 700px;
-    object-fit: cover;
+    top: 64px;
 	}
 	.col1{
     display: flex;

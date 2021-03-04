@@ -1,9 +1,9 @@
-import In from './../images/in.svg'
-import git from './../images/git.svg'
-import mail from './../images/mail.svg'
-import myself from './../images/e783x877_1.png'
-import facebook from './../images/facebook.svg';
-import instagram from './../images/instagram.svg';
+import In from './../../images/in.svg'
+import git from './../../images/git.svg'
+import mail from './../../images/mail.svg'
+import myself from './../../images/e783x877_1.png'
+import facebook from './../../images/facebook.svg';
+import instagram from './../../images/instagram.svg';
 import './home.css'
 import React from 'react'
 export class Home extends React.Component {
