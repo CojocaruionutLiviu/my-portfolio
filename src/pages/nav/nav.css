@@ -65,6 +65,7 @@
     align-items: center;
     justify-content: flex-end;
     padding-right: 20px;
+    transition: 300ms;
   }
     
   .toggle-nav .menu-bars{
@@ -103,6 +104,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: 300ms;
   }
   
 	.toggle-nav ul{

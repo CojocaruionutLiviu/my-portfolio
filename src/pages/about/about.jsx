@@ -10,7 +10,7 @@ export class About extends React.Component {
 					<div className='borderBox'>About Me</div>
 					<p>My Name is Liviu, I’m 27 years old, i was born in Vaslui, Romania and i grow up since when i was 6 in Parma, Italy where i lived untill my 20th.
 						I love coding, researching and finding problems where there is no solution. I love what I do and really makes me happy</p>
-					<Link to="/pdfviewer.jsx" className="btn"> TO MY RESUME</Link>
+					<a href="./../../cv/CV-Actualizat-2-3-2021.pdf" target="_blank" className="btn"> TO MY RESUME</a>
 				</div>
 				<div className="sep">
 					<img src={sep} alt="separator" />
