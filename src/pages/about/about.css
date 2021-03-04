@@ -17,7 +17,6 @@
 	#container .col1{
 		text-align: center;
   	width: 763px ;
-  	margin: 20px
 	}
 	.borderBox{
   	line-height:107px ;
@@ -42,20 +41,32 @@
 	}
 	.col12 .box{
   	width: 516px;
-  	padding: 20px;
+  	padding: 10px;
 	}
 
 	.smallTitle2{
   	font-style: normal;
   	font-weight: bold;
-  	font-size: 40px;
-  	line-height: 47px;
+  	font-size: 24px;
+  	line-height: 27px;
   	align-items: flex-end;
   	text-align: center;
   	color: #000000;
 	}
 	.sep{
     margin: 10px;
+  }
+  .btn{
+    text-decoration: none;
+    border: none;
+    border-left: solid 2px;
+    border-right: solid 2px;
+    width: 200px;
+    margin: 30px;
+    font-weight: bold;
+  }
+  .btn:hover{
+    cursor: pointer;
   }
 }
 
@@ -113,5 +124,14 @@
   }
   .sep{
     margin: 10px;
+  }
+  .btn{
+    text-decoration: none;
+    border: none;
+    border-left: solid 2px;
+    border-right: solid 2px;
+  }
+  .btn:hover{
+    cursor: pointer;
   }
 }
