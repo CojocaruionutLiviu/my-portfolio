@@ -1,4 +1,4 @@
-import './style.css'
+import './portfolio.css'
 import React from 'react'
 export class Portfolio extends React.Component {
     render() {

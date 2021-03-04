@@ -1,4 +1,4 @@
-import './style.css'
+import './about.css'
 import sep from './../images/sep.svg'
 import React from 'react'
 import { Link } from "react-router-dom";

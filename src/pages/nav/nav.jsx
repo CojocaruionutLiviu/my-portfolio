@@ -1,4 +1,4 @@
-import './style.css'
+import './nav.css'
 import React from 'react'
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';

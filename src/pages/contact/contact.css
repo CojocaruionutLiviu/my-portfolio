@@ -1,0 +1,127 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+@media only screen and (min-width: 600px) {
+  #container{
+    background-color:#D7D7D7 ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .borderBox{
+    line-height:107px ;
+    text-align: center;
+    width: 295px;
+    height: 107px;
+    border-style: solid;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 15px;
+  }
+  .sep{
+    margin: 10px;
+  }
+  .contact-form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+  }
+  .contact-form input{
+    padding: 10px;
+    margin: 10px;
+    width:600px;
+    text-align: center;
+    background-color: #D7D7D7;
+    border: none;
+    border-bottom: solid 2px;
+    border-left: solid 2px;
+  }
+
+  *:focus{
+    outline: none;
+  }
+  .contact-form .btn{
+    border: none;
+    border-left: solid 2px;
+    border-right: solid 2px;
+    width: 200px;
+  }
+  .btn:hover{
+    cursor: pointer;
+  }
+  .contact-form textarea{
+    padding: 10px;
+    margin: 10px;
+    width:600px;
+    text-align: center;
+    background-color: #D7D7D7;
+    border: none;
+    border-bottom: solid 2px;
+    border-left: solid 2px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #container{
+    background-color:#D7D7D7 ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .borderBox{
+    line-height:107px ;
+    text-align: center;
+    width: 295px;
+    height: 107px;
+    border-style: solid;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 15px;
+  }
+  .sep{
+    margin: 10px;
+  }
+  .contact-form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .contact-form input{
+    padding: 10px;
+    margin: 10px;
+    width:300px;
+    text-align: center;
+    background-color: #D7D7D7;
+    border: none;
+    border-bottom: solid 2px;
+    border-left: solid 2px;
+  }
+  *:focus{
+    outline: none;
+  }
+  .contact-form .btn{
+    border: none;
+    border-left: solid 2px;
+    border-right: solid 2px;
+  }
+  .btn:hover{
+    cursor: pointer;
+  }
+  .contact-form textarea{
+    padding: 10px;
+    margin: 10px;
+    width:300px;
+    text-align: center;
+    background-color: #D7D7D7;
+    border: none;
+    border-bottom: solid 2px;
+    border-left: solid 2px;
+  }
+}

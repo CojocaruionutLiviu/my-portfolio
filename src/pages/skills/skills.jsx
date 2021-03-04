@@ -1,4 +1,4 @@
-import './style.css'
+import './skills.css'
 import html from './../images/html.svg'
 import css3 from './../images/css3.svg'
 import sass from './../images/sass.svg'

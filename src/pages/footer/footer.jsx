@@ -1,4 +1,4 @@
-import './style.css'
+import './footer.css'
 import In from './../images/in.svg'
 import git from './../images/git.svg'
 import mail from './../images/mail.svg'
@@ -22,7 +22,7 @@ export class Footer extends React.Component {
 	render() {
 		return (
 			<div className="footer-container">
-				<img src={doublearr} alt="" onClick={this.scrollTop} style={{ zIndex: '1', padding: '10px' }} />
+				<img src={doublearr} alt="" onClick={this.scrollTop} id='arrow' style={{ zIndex: '1', padding: '10px' }} />
 				<h3 onClick={this.scrollTop} style={{ zIndex: '1', padding: '10px', cursor: 'pointer' }}>Back to Top</h3>
 				<div className="footer-socials" style={{ zIndex: '1' }}>
 					<a href="https://www.linkedin.com/in/ionutliviucojocaru/">
