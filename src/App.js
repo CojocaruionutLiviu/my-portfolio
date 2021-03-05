@@ -1,4 +1,3 @@
-import './pages/style.css';
 import { Home } from './pages/home/home';
 import { About } from './pages/about/about';
 import { Skills } from './pages/skills/skills';

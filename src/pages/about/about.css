@@ -71,7 +71,7 @@
     cursor: pointer;
     text-decoration: none;
   }
-  a:link, a:visited{
+  .btn:link, .btn:visited{
     cursor: pointer;
     text-decoration: none;
     color: black;
@@ -145,7 +145,7 @@
     cursor: pointer;
     text-decoration: none;
   }
-  .btn:link, .btn:visited{
+  .btn:visited{
     cursor: pointer;
     text-decoration: none;
     color: black;
