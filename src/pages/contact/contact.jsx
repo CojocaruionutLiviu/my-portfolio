@@ -60,7 +60,7 @@ export class Contact extends React.Component {
 		const isValid= this.validate();
 		e.preventDefault();
 
-		if (isValid){emailjs.sendForm('service_1roz64t', 'template_1tj75l7', e.target, 'user_zbRNu5XKe8aEuNGDUsNvp')
+		if (isValid){emailjs.send('service_1roz64t', 'template_1tj75l7', {name: this.state.name, message: this.state.message,reply: this.state.reply,phone: this.state.phone}, 'user_zbRNu5XKe8aEuNGDUsNvp')
 			.then((result) => {
 				this.setState(initialState)
 				console.log(result.text);
