@@ -46,7 +46,7 @@ export class Navbar extends React.Component {
 								<Link to="/skills" className="link">Skills</Link>
 							</li>
 							<li>
-								<Link to="/portfolio" className="link">Portfolio</Link>
+								<Link to="/projetcs" className="link">Portfolio</Link>
 							</li>
 							<li>
 								<Link to="/contact" className="link">Contact Me</Link>
@@ -71,7 +71,7 @@ export class Navbar extends React.Component {
 										<Link to="/skills" className="link" onClick={(event) => this.handleClick(event)}>Skills</Link>
 									</li>
 									<li>
-										<Link to="/portfolio" className="link" onClick={(event) => this.handleClick(event)}>Portfolio</Link>
+										<Link to="/projects" className="link" onClick={(event) => this.handleClick(event)}>Portfolio</Link>
 									</li>
 									<li>
 										<Link to="/contact" className="link" onClick={(event) => this.handleClick(event)}>Contact Me</Link>
