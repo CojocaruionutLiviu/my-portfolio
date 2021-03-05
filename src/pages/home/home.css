@@ -155,7 +155,7 @@
     flex-direction: column;
     }
   .myself{
-    top: -91px;
+    top: -149px;
     position: relative;
     width:100%;
     object-fit:scale-down;
@@ -169,7 +169,7 @@
   }
   .col2{
     width: 100%;
-    height: 394px;
+    height: 337px;
   }
   .smallTitle{
     font-style: normal;
