@@ -145,6 +145,80 @@
   }
 }
 
+@media only screen and (max-width: 412px) {
+  #home{
+  	background-color:#D7D7D7 ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    }
+  .myself{
+    top: -91px;
+    position: relative;
+    width:100%;
+    object-fit:scale-down;
+  }
+  .col1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    z-index: 1;
+  }
+  .col2{
+    width: 100%;
+    height: 394px;
+  }
+  .smallTitle{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #000000;
+  }
+  .bigTitle{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .greyTitle{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #919191;
+  }
+  #social-links{
+    width: 320px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+    .social-btn{
+    padding:5px;
+    width:50px;
+    height: 50px;
+    color: black;
+    background: #C4C4C4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .social-btn:hover{
+    opacity: 0.5;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   #home{
   	background-color:#D7D7D7 ;
