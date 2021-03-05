@@ -64,9 +64,17 @@
     width: 200px;
     margin: 30px;
     font-weight: bold;
+    font-size: 28px;
   }
-  .btn:hover{
+
+  .btn:hover, .btn:active{
     cursor: pointer;
+    text-decoration: none;
+  }
+  a:link, a:visited{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
   }
 }
 
@@ -130,8 +138,16 @@
     border: none;
     border-left: solid 2px;
     border-right: solid 2px;
+    font-weight: bold;
+    font-size: 28px;
   }
-  .btn:hover{
+  .btn:hover, .btn:active{
     cursor: pointer;
+    text-decoration: none;
+  }
+  .btn:link, .btn:visited{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
   }
 }
