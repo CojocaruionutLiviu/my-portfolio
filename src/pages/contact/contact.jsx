@@ -58,6 +58,7 @@ export class Contact extends React.Component {
 
 	sendEmail = (e) => {
 		const isValid= this.validate();
+		e.preventDefault();
 
 		if (isValid){emailjs.sendForm('service_1roz64t', 'template_1tj75l7', e.target, 'user_zbRNu5XKe8aEuNGDUsNvp')
 			.then((result) => {
