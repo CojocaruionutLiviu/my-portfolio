@@ -46,7 +46,7 @@ export class Navbar extends React.Component {
 								<Link to="/skills" className="link">Skills</Link>
 							</li>
 							<li>
-								<Link to="/projetcs" className="link">Portfolio</Link>
+								<Link to="/projects" className="link">Portfolio</Link>
 							</li>
 							<li>
 								<Link to="/contact" className="link">Contact Me</Link>
