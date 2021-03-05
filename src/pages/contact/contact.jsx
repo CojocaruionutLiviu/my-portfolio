@@ -58,15 +58,14 @@ export class Contact extends React.Component {
 
 	sendEmail = (e) => {
 		const isValid= this.validate();
-		e.preventDefault();
 
 		if (isValid){emailjs.sendForm('service_1roz64t', 'template_1tj75l7', e.target, 'user_zbRNu5XKe8aEuNGDUsNvp')
 			.then((result) => {
+				this.setState(initialState)
 				console.log(result.text);
 			}, (error) => {
 				console.log(error.text);
 			});
-			this.setState(initialState);
 		}
 	}
 
@@ -88,7 +87,7 @@ export class Contact extends React.Component {
 					value={this.state.name}
 					onChange={this.handleChange}
 					/>
-					<div style={{color:'red', fontSize:'12px'}}>{this.state.nameError}</div>
+					<div style={{color:'red', fontSize:'12px', textAlign: 'center'}}>{this.state.nameError}</div>
 					<input 
 					name="reply" 
 					placeholder="EMAIL" 
@@ -96,7 +95,7 @@ export class Contact extends React.Component {
 					value={this.state.reply}
 					onChange={this.handleChange}
 					/>
-					<div style={{color:'red', fontSize:'12px'}}>{this.state.replyError}</div>
+					<div style={{color:'red', fontSize:'12px',textAlign: 'center'}}>{this.state.replyError}</div>
 					<input 
 					name="phone" 
 					placeholder="PHONE NUMBER" 
@@ -104,7 +103,7 @@ export class Contact extends React.Component {
 					value={this.state.phone}
 					onChange={this.handleChange}
 					/>
-					<div style={{color:'red', fontSize:'12px'}}>{this.state.phoneError}</div>
+					<div style={{color:'red', fontSize:'12px',textAlign: 'center'}}>{this.state.phoneError}</div>
 					<textarea 
 					name="message" 
 					placeholder="LEAVE ME A MESSAGE" 
@@ -112,9 +111,9 @@ export class Contact extends React.Component {
 					value={this.state.message}
 					onChange={this.handleChange}
 					/>
-					<div style={{color:'red', fontSize:'12px'}}>{this.state.messageError}</div>
-					<input type="submit" value="Send" className="btn" autocomplete="off" />
-					<div style={{color:'black', fontSize:'24px',fontWeight: 'bold'}}>{this.state.submitted}</div>
+					<div style={{color:'red', fontSize:'12px',textAlign: 'center'}}>{this.state.messageError}</div>
+					<input type="submit" value="Send" className="btn" autocomplete="off"/>
+					<div style={{color:'black', fontSize:'24px',fontWeight: 'bold',textAlign: 'center'}}>{this.state.submitted}</div>
 				</form>
 			</div>
 		)
