@@ -69,6 +69,11 @@
     -moz-appearance: none;
     appearance: none;
   }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+   margin: 0;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -133,5 +138,10 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+   margin: 0;
   }
 }

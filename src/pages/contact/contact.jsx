@@ -98,6 +98,7 @@ export class Contact extends React.Component {
 					/>
 					<div style={{color:'red', fontSize:'12px',textAlign: 'center'}}>{this.state.replyError}</div>
 					<input 
+					type="number"
 					name="phone" 
 					placeholder="PHONE NUMBER" 
 					
