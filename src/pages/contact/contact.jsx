@@ -5,14 +5,14 @@ import emailjs from 'emailjs-com';
 
 const initialState= {
 	name: "",
-			reply: "",
-			phone: "",
-			message: "",
-			nameError: "",
-			replyError: "",
-			phoneError: "",
-			messageError: "",
-			submitted:"",
+	reply: "",
+	phone: "",
+	message: "",
+	nameError: "",
+	replyError: "",
+	phoneError: "",
+	messageError: "",
+	submitted:"",
 }
 
 export class Contact extends React.Component {
@@ -44,9 +44,8 @@ export class Contact extends React.Component {
 				return false;
 			}
 			return true;
-
 	}
-
+	
 	handleChange = event =>{
 		const isCheckbox = event.target.type ==='checkbox';
 		this.setState({
@@ -59,8 +58,13 @@ export class Contact extends React.Component {
 	sendEmail = (e) => {
 		const isValid= this.validate();
 		e.preventDefault();
+		const Inputs = {
+			name: this.state.name, 
+			message: this.state.message,
+			reply: this.state.reply,
+			phone: this.state.phone}
 
-		if (isValid){emailjs.send('service_1roz64t', 'template_1tj75l7', {name: this.state.name, message: this.state.message,reply: this.state.reply,phone: this.state.phone}, 'user_zbRNu5XKe8aEuNGDUsNvp')
+		if (isValid){emailjs.send('service_1roz64t', 'template_1tj75l7', Inputs , 'user_zbRNu5XKe8aEuNGDUsNvp')
 			.then((result) => {
 				this.setState(initialState)
 				console.log(result.text);
