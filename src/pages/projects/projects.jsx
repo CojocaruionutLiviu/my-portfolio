@@ -5,6 +5,11 @@ export class Projects extends React.Component {
         return (
             <div id="container-projects">
                 <div className="repo-cards">
+                     <a href="https://github.com/CojocaruionutLiviu/PHP-Course" target="_blank">
+                        <img className="img-card" src='https://gh-card.dev/repos/CojocaruionutLiviu/PHP-Course.svg?fullname=' />
+                    </a>
+                </div>
+                <div className="repo-cards">
                      <a href="https://github.com/CojocaruionutLiviu/my-portfolio" target="_blank">
                         <img className="img-card" src='https://gh-card.dev/repos/CojocaruionutLiviu/my-portfolio.svg?fullname=' />
                     </a>
