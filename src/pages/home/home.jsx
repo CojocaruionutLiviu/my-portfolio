@@ -9,7 +9,7 @@ import React from 'react'
 export class Home extends React.Component {
   render() {
     return (
-      < div id="container" >
+      < div id="container-home" >
         <div id="home">
           <div className="col1">
             <span className="smallTitle">Hi, I am</span>

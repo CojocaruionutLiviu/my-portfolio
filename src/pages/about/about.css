@@ -82,15 +82,16 @@
 	#container{
     background-color:#D7D7D7 ;
     width: 100%;
+  }
+  
+  #container .col1{
+    width:100%;
+    text-align: center;
     height: 75vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-  }
-  #container .col1{
-    text-align: center;
-    margin: 10px
   }
 
   .borderBox{
@@ -101,15 +102,12 @@
     border-style: solid;
     font-size: 48px;
     font-weight: bold;
-    margin: 15px;
+    margin: 10px;
   }
 
   #container p{
     width: 200px;
     text-align: center;
-  }
-  .col1 p{
-    margin: 20px;
   }
 
   .smallTitle2{
